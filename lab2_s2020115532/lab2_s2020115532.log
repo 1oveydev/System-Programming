@@ -1,0 +1,72 @@
+    1  history
+    2  clear
+    3  lsb_release -a
+    4  uname -a
+    5  cat /etc/passwd | grep jjeongseo
+    6  man
+    7  man ls
+    8  pwd
+    9  cd /etc
+   10  pwd
+   11  cd ~
+   12  pwd
+   13  ls
+   14  ls -al
+   15  ls -ltr
+   16  cd /usr/include
+   17  ls
+   18  ls *.h
+   19  ls std*.h
+   20  clear
+   21  cd ~
+   22  cd lab2
+   23  ls
+   24  rm lab2_s2020115532.log 
+   25  ls
+   26  cd ..
+   27  pwd
+   28  rm lab2
+   29  rm -r lab2
+   30  ls
+   31  mkdir lab2
+   32  ls
+   33  cd lab2
+   34  cp /usr/include/
+   35  cp /usr/include/std
+   36  ls
+   37  cp /usr/include/stdio.h testfile
+   38  ls
+   39  ls -al
+   40  ls -l
+   41  ls -l testfile 
+   42  mv testfile test
+   43  ls -l test 
+   44  cp test test2
+   45  ls
+   46  rm test2
+   47  ls
+   48  clear
+   49  cat test
+   50  less test
+   51  head test
+   52  head -n20 test
+   53  clear
+   54  tail test
+   55  cat test | more
+   56  clear
+   57  ls -al > listing
+   58  cat listing
+   59  ls
+   60  echo "KNUls" >> listing
+   61  cat lisging
+   62  cat listing
+   63  ls
+   64  vi listing
+   65  cat listing
+   66  vi listing
+   67  echo "KNU!" >> listing
+   68  cat listing
+   69  wc -l < listing
+   70  vi listing
+   71  wc -l < listing
+   72  history > lab2_s2020115532.log
