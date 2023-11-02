@@ -19,5 +19,5 @@ int main(){
 }
 
 void f(){
-	printf("^CCurrently elapsed time:  %d sec(s)\n", time);
+	printf(" Currently elapsed time:  %d sec(s)\n", time);
 }
